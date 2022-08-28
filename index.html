@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pika Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="links" >
+        <button onclick="changeBackground1('rgb(43, 218, 37)')" class="link1">Link 1</button>
+        <button onclick="changeBackground2('rgb(43, 218, 37)')" class="link2">Link 2</button>
+        <button onclick="changeBackground3('rgb(43, 218, 37)')" class="link3">Link 3</button>
+        <button onclick="changeBackground4('rgb(43, 218, 37)')" class="link4">Link 4</button>
+        <button onclick="changeBackground5('rgb(43, 218, 37)')" class="link5">Link 5</button>
+        <button onclick="changeBackground6('rgb(43, 218, 37)')" class="link6">Link 6</button>
+    </div>
+
+    <script>
+        function changeBackground1(color){
+            document.querySelector('.link1').style.backgroundColor = color;
+            window.open('https://vote.pika-network.net/1', '_blank');
+        }
+        function changeBackground2(color){
+            document.querySelector('.link2').style.backgroundColor = color;
+            window.open('https://vote.pika-network.net/2', '_blank');
+        }
+        function changeBackground3(color){
+            document.querySelector('.link3').style.backgroundColor = color;
+            window.open('https://vote.pika-network.net/3', '_blank');
+        }
+        function changeBackground4(color){
+            document.querySelector('.link4').style.backgroundColor = color;
+            window.open('https://vote.pika-network.net/4', '_blank');
+        }
+        function changeBackground5(color){
+            document.querySelector('.link5').style.backgroundColor = color;
+            window.open('https://vote.pika-network.net/5', '_blank');
+        }
+        function changeBackground6(color){
+            document.querySelector('.link6').style.backgroundColor = color;
+            window.open('https://vote.pika-network.net/6', '_blank');
+        }
+    </script>
+</body>
+</html>
